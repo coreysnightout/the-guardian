@@ -1,0 +1,37 @@
+.nav {
+  position: relative;
+  height: 150px;
+  width: 100%;
+  overflow: hidden; }
+
+.circle {
+  height: 60px;
+  width: 60px;
+  background: #4bc6df;
+  background: #4bc6df; }
+
+.nav img {
+  width: 70%;
+  max-height: 100px;
+  max-width: 400px;
+  position: absolute;
+  margin-left: 68%;
+  transform: translateX(-47%); }
+
+li {
+  display: inline-block;
+  float: left;
+  color: #AADCE6;
+  padding-right: 2px;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  margin-top: 100px;
+  font-size: 1.2em;
+  letter-spacing: 1px; }
+
+#news {
+  margin-left: 10px; }
+
+.nav {
+  background-color: #005689; }
+
+/*# sourceMappingURL=output.css.map */
