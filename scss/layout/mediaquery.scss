@@ -1,0 +1,74 @@
+
+
+@media #{$mobile} {
+  .circle {
+    float: right;
+    margin-top: 105px;
+    margin-right: 5.2%;
+  }
+
+  .nav img {
+    width: 70%;
+    max-height: 100px;
+    max-width: 400px;
+    position: absolute;
+    margin-left: 62%;
+    transform: translateX(-47%);
+    overflow: hidden;
+  }
+
+  li {
+    display: inline-block;
+    float: left;
+    color: $light-blue;
+    padding-right: 2px;
+    font-family: $helvetica;
+    margin-top: 120px;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+  }
+
+  .slash {
+    font-size: 1em;
+  }
+
+  #news {
+    margin-left: 10px;
+  }
+
+  .bars {
+    margin-left: 15px;
+    margin-top: 21px;
+  }
+
+  .icon-bar {
+    width: 25px;
+    margin-bottom: 3px;
+    border-bottom: 2px solid $white-smoke;
+    border-radius-left: 2px;
+    border-radius-right: 20px;
+  }
+
+  .subnav {
+    margin-top: -20px;
+    height: 80px;
+    width: 100%;
+  }
+
+  .row {
+    clear: both;
+  }
+
+  .subnav li {
+    float: left;
+    margin-top: 20px;
+    margin-top: 12px;
+    font-size: 1.0em;
+  }
+
+  .subnav ul {
+    float:left;
+    width: 60%;
+    margin-left: 10px;
+  }
+}

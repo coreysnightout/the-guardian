@@ -1,33 +1,17 @@
-.circle {
+*, *:before, *:after {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: $helvetica;
+}
 
-  @include size(60px);
+.circle {
+  @include border-top-radius(50%);
+  @include border-bottom-radius(50%);
+  @include size(55px);
   @include background($medium-turquoise);
 }
 
-.nav img {
-  width: 70%;
-  max-height: 100px;
-  max-width: 400px;
-  position: absolute;
-  margin-left: 68%;
-  transform: translateX(-47%);
+.subnav {
+  @include background($mid-gray);
 }
-
-li {
-  display: inline-block;
-  float: left;
-  color: $light-blue;
-  padding-right: 2px;
-  font-family: $helvetica;
-  margin-top: 100px;
-  font-size: 1.2em;
-  letter-spacing: 1px;
-}
-
-#news {
-  margin-left: 10px;
-}
-//
-// .circle {
-//   background-color: $light-blue;
-// }

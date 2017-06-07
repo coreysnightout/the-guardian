@@ -1,37 +1,104 @@
 .nav {
   position: relative;
   height: 150px;
-  width: 100%;
-  overflow: hidden; }
+  width: 100%; }
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
 
 .circle {
-  height: 60px;
-  width: 60px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  height: 55px;
+  width: 55px;
   background: #4bc6df;
   background: #4bc6df; }
 
-.nav img {
-  width: 70%;
-  max-height: 100px;
-  max-width: 400px;
-  position: absolute;
-  margin-left: 68%;
-  transform: translateX(-47%); }
-
-li {
-  display: inline-block;
-  float: left;
-  color: #AADCE6;
-  padding-right: 2px;
-  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
-  margin-top: 100px;
-  font-size: 1.2em;
-  letter-spacing: 1px; }
-
-#news {
-  margin-left: 10px; }
+.subnav {
+  background: #5C6268;
+  background: #5C6268; }
 
 .nav {
   background-color: #005689; }
+
+.subnav li {
+  color: #f6f6f6; }
+
+@media (min-width: 400px) and (max-width: 767px) {
+  .circle {
+    float: right;
+    margin-top: 105px;
+    margin-right: 5.2%; }
+
+  .nav img {
+    width: 70%;
+    max-height: 100px;
+    max-width: 400px;
+    position: absolute;
+    margin-left: 62%;
+    transform: translateX(-47%);
+    overflow: hidden; }
+
+  li {
+    display: inline-block;
+    float: left;
+    color: #AADCE6;
+    padding-right: 2px;
+    font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+    margin-top: 120px;
+    font-size: 1.1em;
+    letter-spacing: 1px; }
+
+  .slash {
+    font-size: 1em; }
+
+  #news {
+    margin-left: 10px; }
+
+  .bars {
+    margin-left: 15px;
+    margin-top: 21px; }
+
+  .icon-bar {
+    width: 25px;
+    margin-bottom: 3px;
+    border-bottom: 2px solid #f6f6f6;
+    border-radius-left: 2px;
+    border-radius-right: 20px; }
+
+  .subnav {
+    margin-top: -20px;
+    height: 80px;
+    width: 100%; }
+
+  .row {
+    clear: both; }
+
+  .subnav li {
+    float: left;
+    margin-top: 20px;
+    margin-top: 12px;
+    font-size: 1.0em; }
+
+  .subnav ul {
+    float: left;
+    width: 60%;
+    margin-left: 10px; } }
+.body h3 {
+  margin-top: 2%;
+  margin-left: 10px; }
+
+.main-story img {
+  width: 100%;
+  border-top: 1.5px solid #AADCE6; }
+
+.main-story {
+  margin-top: 10px;
+  padding: 0 10px; }
 
 /*# sourceMappingURL=output.css.map */
