@@ -44,7 +44,7 @@
     transform: translateX(-47%);
     overflow: hidden; }
 
-  li {
+  .top-nav {
     display: inline-block;
     float: left;
     color: #AADCE6;
@@ -81,9 +81,10 @@
 
   .subnav li {
     float: left;
-    margin-top: 20px;
-    margin-top: 12px;
-    font-size: 1.0em; }
+    margin-top: 15px;
+    font-size: 1.0em;
+    letter-spacing: 1px;
+    list-style: none; }
 
   .subnav ul {
     float: left;
@@ -91,14 +92,34 @@
     margin-left: 10px; } }
 .body h3 {
   margin-top: 2%;
-  margin-left: 10px; }
+  margin-left: 10px;
+  width: 50%; }
+
+.fart {
+  margin-right: 10px; }
+
+#headline {
+  width: 250px; }
+
+#temp {
+  color: black;
+  margin-top: 10px; }
+
+.weather-toggle {
+  float: right;
+  color: black;
+  list-style: none;
+  margin-left: 5px; }
+
+.weather-toggle li:nth-child(2) {
+  margin-top: 0; }
 
 .main-story img {
   width: 100%;
   border-top: 1.5px solid #AADCE6; }
 
 .main-story {
-  margin-top: 10px;
-  padding: 0 10px; }
+  padding: 0 10px;
+  height: 420px; }
 
 /*# sourceMappingURL=output.css.map */

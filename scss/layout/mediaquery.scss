@@ -17,7 +17,7 @@
     overflow: hidden;
   }
 
-  li {
+  .top-nav {
     display: inline-block;
     float: left;
     color: $light-blue;
@@ -61,9 +61,10 @@
 
   .subnav li {
     float: left;
-    margin-top: 20px;
-    margin-top: 12px;
+    margin-top: 15px;
     font-size: 1.0em;
+    letter-spacing: 1px;
+    list-style: none;
   }
 
   .subnav ul {

@@ -1,6 +1,31 @@
 .body h3 {
   margin-top: 2%;
   margin-left: 10px;
+  width: 50%;
+}
+
+.fart {
+  margin-right: 10px;
+}
+
+#headline {
+  width: 250px;
+}
+
+#temp {
+  color: black;
+  margin-top: 10px;
+}
+
+.weather-toggle {
+  float: right;
+  color: black;
+  list-style: none;
+  margin-left:5px;
+}
+
+.weather-toggle li:nth-child(2) {
+  margin-top: 0;
 }
 
 .main-story img {
@@ -9,6 +34,6 @@
 }
 
 .main-story {
-  margin-top: 10px;
   padding: 0 10px;
+  height: 420px;
 }
